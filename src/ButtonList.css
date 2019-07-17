@@ -1,0 +1,12 @@
+button {
+    border: 1px solid #fff;
+    width: 24em;
+    height: 5em;
+    outline: none;
+    color: #fff;
+    font-size: 1em
+}
+
+.buttonList {
+    display: inline-block;
+}
