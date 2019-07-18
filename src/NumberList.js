@@ -6,6 +6,7 @@ class NumberList extends Component {
     constructor(props) {
         super(props);
         this.state = { nums: [1, 2, 3, 4, 5] };
+        this.remove = this.remove.bind(this)
     }
     remove = (num) => {
         if (this.state.nums.length > 0) {
@@ -17,7 +18,7 @@ class NumberList extends Component {
         }
     }
     render() {
-        let nums = this.state.nums.map(n => <NumberItem value={n} remove={() => this.remove(n)} />)
+        let nums = this.state.nums.map(n => <NumberItem value={n} remove={this.remove} />)
         return (
             <div>
                 <h1>Firts Number list</h1>
