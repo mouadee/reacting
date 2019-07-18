@@ -1,0 +1,16 @@
+ul {
+    list-style: none
+}
+
+button {
+    margin: 10px;
+    border: none;
+    width: 4em;
+    height: 2em;
+    outline: none;
+    color: #fff;
+    font-size: 1em;
+    background: #ccc;
+    border-radius: 1em;
+    cursor: pointer;
+}
